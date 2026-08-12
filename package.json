@@ -1,0 +1,21 @@
+{
+    "name": "product-crud-challenge",
+        "version": "1.0.0",
+        "description": "Product CRUD Challenge: SQL & NoSQL Edition - MongoDB (Mongoose) + MySQL (mysql2) implementations of the same Product CRUD API in Node.js/Express.",
+        "main": "server.js",
+        "scripts": {
+          "start": "node server.js",
+                "dev": "nodemon server.js"
+    },
+  "keywords": ["node", "express", "mongodb", "mongoose", "mysql", "mysql2", "crud"],
+      "license": "ISC",
+      "dependencies": {
+        "dotenv": "^16.4.5",
+              "express": "^4.19.2",
+              "mongoose": "^8.5.0",
+              "mysql2": "^3.10.0"
+  },
+  "devDependencies": {
+        "nodemon": "^3.1.4"
+  }
+}
